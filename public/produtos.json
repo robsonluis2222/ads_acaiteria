@@ -1,0 +1,56 @@
+[
+  {
+    "nome": "DÁSUMBANHO",
+    "ingredientes": "Açaí, Banana, Granola, Leite em pó, Leite condensado",
+    "precos": {
+      "300ml": 14.00,
+      "500ml": 17.00,
+      "700ml": 26.00
+    }
+  },
+  {
+    "nome": "ISTEPÔ",
+    "ingredientes": "Açaí, Morango, Granola, Leite em pó, Leite condensado",
+    "precos": {
+      "300ml": 15.50,
+      "500ml": 18.50,
+      "700ml": 27.50
+    }
+  },
+  {
+    "nome": "TAZEDOIDO!",
+    "ingredientes": "Açaí, Uva verde, Granola, Leite em pó, Leite condensado",
+    "precos": {
+      "300ml": 16.00,
+      "500ml": 19.00,
+      "700ml": 28.00
+    }
+  },
+  {
+    "nome": "QUEX? PEGA!",
+    "ingredientes": "Açaí, Banana, Morango, Kiwi, Granola, Leite em pó, Leite condensado",
+    "precos": {
+      "300ml": 17.00,
+      "500ml": 21.00,
+      "700ml": 29.00
+    }
+  },
+  {
+    "nome": "TAX TOLO?!",
+    "ingredientes": "Açaí, Morango, Leite em pó, Leite condensado",
+    "precos": {
+      "300ml": 18.00,
+      "500ml": 23.00,
+      "700ml": 31.00
+    }
+  },
+  {
+    "nome": "TU QUE SABEX (GOURMET)",
+    "ingredientes": "Açaí, Morango, Leite em pó, Creme Ferrero",
+    "precos": {
+      "300ml": 26.00,
+      "500ml": 30.00,
+      "700ml": 38.00
+    }
+  }
+]
