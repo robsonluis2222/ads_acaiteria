@@ -42,6 +42,7 @@ const Home = () => {
     carrinhoAtual.push(item)
     localStorage.setItem('carrinho', JSON.stringify(carrinhoAtual))
     setItensCarrinho(carrinhoAtual)
+    setMostrarCarrinho(true) // Abre o carrinho automaticamente
 
     const mensagem = `Você adicionou ${produto.nome} (${tamanho}) ao carrinho!`
     setPopupMessage(mensagem)
@@ -80,10 +81,15 @@ const Home = () => {
         🛒 <span className={styles.textoCarrinho}>Meu carrinho</span>
       </span>
 
-
       {/* Carrinho Lateral */}
       {mostrarCarrinho && (
         <div className={styles.carrinhoLateral}>
+          <i
+            style={{ color: 'red', cursor: 'pointer', float: 'right' }}
+            className="bi bi-x-lg"
+            onClick={() => setMostrarCarrinho(false)}
+          ></i>
+
           <h2>Seu Carrinho</h2>
 
           {itensCarrinho.length === 0 ? (
@@ -142,7 +148,6 @@ const Home = () => {
                   key={tamanho}
                   className={styles.copo}
                   onClick={() => adicionarAoCarrinho(produto, tamanho)}
-                  style={{ cursor: 'pointer' }}
                 >
                   <i className="bi bi-cup-straw" style={{ fontSize: `${25 + idx * 5}px` }}></i>
                   <span>{tamanho.toUpperCase()}</span>

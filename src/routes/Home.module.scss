@@ -1,5 +1,5 @@
 .home {
-  width: 100%;
+  width: 90%;
   height: auto;
   padding: 20px;
   background-color: #fdfdfd;
@@ -7,7 +7,7 @@
   .reciveMode {
     background-color: white;
     margin-left: 50px;
-    width: 91%;
+    width: 86%;
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -63,9 +63,12 @@
         margin-bottom: 4px;
       }
     }
+
+    @media (max-width: 600px) {
+      width: 80%;
+    }
   }
 }
-
 .info{
   width: 40%;
 }
